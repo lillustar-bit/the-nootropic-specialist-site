@@ -101,7 +101,7 @@
     .post-card:hover {
       transform: translateY(-4px);
     }
-
+${post.image ? `<img src="${post.image}" alt="${post.title}" class="blog-image">` : ""}
     .post-date {
       color: var(--hot);
       font-size: 0.82rem;
